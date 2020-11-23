@@ -38,7 +38,7 @@ toy_problems = [
             (-4, 4),
         ),
         (
-            'fig.3(f)',
+            'fig.3(g)',
             rosenbrock,
             [-4, -4],
             (-6, 6),
