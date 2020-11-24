@@ -15,6 +15,6 @@ fig3_optims = {
 fig3d_optims = {
         "SGD + Momentum": kw(optim.SGD, lr=10**-3, momentum=0.3, dampening=0.3),
         "SGD + Momentum (α=10^-6)": kw(optim.SGD, lr=10**-6, momentum=0.3, dampening=0.3),
-        "Adam": kw(optim.Adam, lr=10**-3, betas=(0.3, 0.3)),
-        "AdaBelief": kw(AdaBelief, lr=10**-3, betas=(0.3, 0.3), rectify=False),
+        "Adam": kw(optim.Adam, betas=(0.3, 0.3)),
+        "AdaBelief": kw(AdaBelief, betas=(0.3, 0.3), rectify=False),
         }
