@@ -16,7 +16,7 @@ I add SGD with learning rate = 10 ^ -6.
 <img src="./out/fig.3(c).gif">
 
 ## fig.3(d)
-**TBD**
+<img src="./out/fig.3(d).gif">
 
 ## fig.3(e)
 <img src="./out/fig.3(e).gif">
